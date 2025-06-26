@@ -1,0 +1,12 @@
+{
+    "watch": [
+      "server.ts",
+      "src/collections/**/*.ts",
+      "src/trpc/index.ts",
+      "middleware.ts"
+    ],
+    "exec": "ts-node --project tsconfig.server.json src/server.ts -- -I",
+    "ext": "js ts",
+    "stdin": false
+  }
+  
